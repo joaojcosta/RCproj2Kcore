@@ -25,9 +25,15 @@ $ java -cp lib/'*' it.unimi.dsi.webgraph.BVGraph -o -O -L enron
 $ java -cp lib/'*' it.unimi.dsi.webgraph.Transform symmetrizeOffline enron n69244a276143
 ```
 
+As duas primeiras linhas obtêm o grafo e a respectiva propriedade, na terceira linha é gerado o offset para o grafo e na quarta linha é feita a transformação para um grafo não orientado (o algoritmo é aplicado à grafo não orientado).
+
+A tabela a seguir corresponde ao conjunto de datasets selecionados para o experimento.
+
 ![alt text](datasets.png)
 
-As duas primeiras linhas obtêm o grafo e a respectiva propriedade, na terceira linha é gerado o offset para o grafo e na quarta linha é feita a transformação para um grafo não orientado (o algoritmo é aplicado à grafo não orientado).
+A tabela a seguir é representar as executações para cada instancia e a respectiva média usada como tempo de executação aproximado.
+
+![alt text](times.png)
 
 ## Executar o programa
 
